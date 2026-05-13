@@ -1,0 +1,6 @@
+displayName: Cert Encoder
+type: middleware
+import: github.com/laekh/certencoder
+summary: URL-encodes X-Forwarded-Tls-Client-Cert header to restore Traefik v2 compatibility
+testData:
+  headerName: "X-Forwarded-Tls-Client-Cert"
